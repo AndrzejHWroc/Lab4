@@ -15,6 +15,7 @@ case "$1" in
   --help)
     echo "--date       → wyświetla dzisiejszą datę"
     echo "--logs [n]   → tworzy n plików logx.txt (domyślnie 100)"
+    echo "--help       → pokazuje dostępne opcje"
     ;;
   *)
     echo "Nieznana opcja. Użyj --help"
